@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('google.com')
 
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
