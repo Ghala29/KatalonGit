@@ -23,3 +23,7 @@ WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER, 'a'))
 
+WebUI.takeAreaScreenshot(null)
+
+WebUI.takeAreaScreenshot(null)
+
