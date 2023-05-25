@@ -17,13 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.google.com/?hl=ID')
-
-WebUI.delay(2)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER, 'a'))
-
-WebUI.takeAreaScreenshot(null)
-
-WebUI.takeAreaScreenshot(null)
-
